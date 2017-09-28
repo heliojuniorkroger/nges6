@@ -1,6 +1,6 @@
 {
   "name": "nges6",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A CLI for creating AngularJS applications with Webpack and ES6",
   "main": "index.js",
   "bin": {
