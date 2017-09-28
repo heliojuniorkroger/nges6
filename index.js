@@ -38,9 +38,9 @@ program
                                                        name: answers.name
                                                   }), err => {
                                                        if (err) throw err
-                                                       fs.readFile(__dirname + '/template/src/directives/app.html', (err, source) => {
+                                                       fs.readFile(__dirname + '/template/src/view/app.html', (err, source) => {
                                                             if (err) throw err
-                                                            fs.writeFile('./' + name + '/src/directives/app.html', Handlebars.compile(source.toString())({
+                                                            fs.writeFile('./' + name + '/src/view/app.html', Handlebars.compile(source.toString())({
                                                                  title: answers.title
                                                             }), err => {
                                                                  if (err) throw err
