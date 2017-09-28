@@ -1,6 +1,6 @@
 export default () => {
      return {
-          template: require('./view/app.html'),
+          template: require('../view/app.html'),
           restrict: 'E'
      }
 }
