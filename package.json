@@ -1,6 +1,6 @@
 {
   "name": "nges6",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A CLI for creating AngularJS applications with Webpack and ES6",
   "main": "index.js",
   "bin": {
@@ -11,6 +11,7 @@
   },
   "author": "Hélio Júnior Rodrigues Kroger",
   "license": "ISC",
+  "repository": "git://github.com/heliojuniorkroger/nges6",
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.11.0",
